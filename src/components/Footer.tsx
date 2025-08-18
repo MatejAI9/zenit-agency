@@ -20,7 +20,7 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="space-y-4">
             <img 
-              src="/logo.png"
+              src="logo.png"
               alt="Zenit Agency" 
               className="h-12 w-auto object-contain"
             />
