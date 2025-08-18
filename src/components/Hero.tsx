@@ -13,7 +13,7 @@ const Hero = () => {
       {/* Background decorative element */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
         <img 
-          src="/onlyfans1.png" 
+          src="onlyfans1.png" 
           alt="" 
           className="w-96 h-96 object-contain opacity-20 blur-sm"
         />
