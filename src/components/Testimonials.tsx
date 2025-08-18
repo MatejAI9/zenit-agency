@@ -5,17 +5,17 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: "Anna M.",
-      image: "/anna.png.png",
+      image: "anna.png.png",
       text: "Zenit Agency allowed me to build a passive income of over $2,000 per month with almost no extra work, just by following their guidance."
     },
     {
       name: "Sofia R.",
-      image: "/sofia.png.png",
+      image: "sofia.png.png",
       text: "I felt lost on OnlyFans and couldn't attract fans. With Zenit, my profit doubled and I finally understood the right strategies."
     },
     {
       name: "Emily T.",
-      image: "/emily.png.jpg",
+      image: "emily.png.jpg",
       text: "Working with Zenit turned my hobby into a serious business. They handled the management and marketing so I could focus only on creating."
     }
   ];
