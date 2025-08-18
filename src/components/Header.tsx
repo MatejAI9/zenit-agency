@@ -19,7 +19,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0 md:flex-none flex justify-center md:justify-start w-full md:w-auto">
             <img 
-              src="/logo.png"
+              src="logo.png"
               alt="Zenit Agency" 
               className="h-10 w-auto object-contain"
             />
