@@ -15,7 +15,7 @@ const Hero = () => {
         <img 
           src="onlyfans1.png" 
           alt="" 
-          className="w-96 h-96 object-contain opacity-20 blur-sm"
+          className="w-120 h-120 object-contain opacity-20 blur-sm"
         />
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
