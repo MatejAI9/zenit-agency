@@ -22,18 +22,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
-      - run: npm ci
+      - run: npm ci || npm i
       - run: npm run build
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./dist
 
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      # >>> DODATO: CNAME + 404 fallback u build izlaz (dist)
+      - name: Add CNAME and 404 fallback
+        run: |
+          echo zenitagency.com > dist/CNAME
+          cp dist/index.html
+
