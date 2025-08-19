@@ -2,6 +2,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/zenit-agency/',   // <— bitno
+  base: './',           // ← ovo mora
   plugins: [react()],
 })
